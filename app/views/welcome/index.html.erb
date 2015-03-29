@@ -1,2 +1,11 @@
 <h1>Hola on Rails</h1>
+<h2> Autor : <%= @autor %> </h2>
 <p>vista numero 1</p>
+
+<% @limite.times do %>
+<p> <%= @mensaje %>
+<% end %>
+
+<footer>
+	<p> by: <%= @autor %> <p>
+</footer>
